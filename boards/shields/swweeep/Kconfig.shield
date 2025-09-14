@@ -6,3 +6,9 @@ config SHIELD_SWWEEEP_LEFT
 
 config SHIELD_SWWEEEP_RIGHT
     def_bool $(shields_list_contains,swweeep_right)
+
+config SHIELD_SWWEEEP_LEFT_CENTRAL
+    def_bool $(shields_list_contains,swweeep_left_central)
+
+config SHIELD_SWWEEEP_DONGLE
+    def_bool $(shields_list_contains,swweeep_dongle)
