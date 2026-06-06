@@ -5,6 +5,7 @@
  */
 
 #include "swweeep.dtsi"
+#include "esb.overlay"
 
 &default_transform {
   col-offset = <18>;
